@@ -42,7 +42,7 @@ l=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","
 def count_letters(ss):
     ss=ss.lower()
     for x in l:
-        z.append(s.count(x))
+        z.append(ss.count(x))
     tup=list(zip(l,z))
     print(tup)
 count_letters(s)
