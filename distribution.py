@@ -44,7 +44,7 @@ def tup_letters(ss):
     for x in l:
         z.append(ss.count(x))
     tup=list(zip(l,z))
-    return(tup)
+    print(tup)
 
 
     tup=tup.sort()
