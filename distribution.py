@@ -46,10 +46,10 @@ def tup_letters(ss):
     tup=list(zip(l,z))
     return(tup)
 
-def sort_letters(tups):
-    tups.sort()
-    print(tups)
+
+    tup.sort()
+    print(tup)
     
     
 tup_letters(s)
-sort_letters(tup)
+#sort_letters(tup)
