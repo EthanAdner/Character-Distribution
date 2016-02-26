@@ -43,4 +43,5 @@ def count_letters(ss):
     ss=ss.lower()
     for x in l:
         z=z.append(s.count(x))
+    print(z)
 count_letters(s)
