@@ -42,6 +42,6 @@ l=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","
 def count_letters(ss):
     ss=ss.lower()
     for x in l:
-        z=z.append(s.count(x))
+        z.append(s.count(x))
     print(z)
 count_letters(s)
