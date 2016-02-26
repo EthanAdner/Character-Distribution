@@ -1,7 +1,7 @@
 """
 distribution.py
 Author: <your name here>
-Credit: <list sources used, if any>
+Credit: David Wilson
 
 Assignment:
 
@@ -43,7 +43,6 @@ def count_letters(ss):
     ss=ss.lower()
     for x in l:
         z.append(s.count(x))
-    print(z)
     tup=list(zip(l,z))
     print(tup)
 count_letters(s)
