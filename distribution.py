@@ -45,4 +45,5 @@ def count_letters(ss):
         z.append(s.count(x))
     print(z)
     tup=zip(z,l)
+    print(tup)
 count_letters(s)
