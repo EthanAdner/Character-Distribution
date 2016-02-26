@@ -49,4 +49,4 @@ def tup_letters(ss):
 def tup_sort(tups):
     print(len(tups))
 tup_letters(s)
-tup_sort(tup_letters(s))
+tup_sort(tup)
