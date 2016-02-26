@@ -47,7 +47,7 @@ def tup_letters(ss):
     return(tup)
 
 
-    tup.sort()
+    tup=tup.sort()
     print(tup)
     
     
