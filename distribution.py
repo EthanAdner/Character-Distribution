@@ -49,7 +49,7 @@ def tup_sort(tups):
     z=0
     for x in tups:
         print(x)
-    tups.sort()
+    tups.sort(reverse=False)
     print(tups)
     
 print(tup_letters(s))
