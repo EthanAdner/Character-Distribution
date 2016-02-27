@@ -47,6 +47,7 @@ def tup_letters(ss):
     return(tup)
 def tup_sort(tups):
     z=0
+    tups=list(tups)
     for x in tups:
         print(x)
     tups=tups.sort()
