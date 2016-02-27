@@ -50,6 +50,7 @@ def tup_sort(tups):
     for x in tups:
         print(x)
     tups.sort()
+    print(tups)
     
 print(tup_letters(s))
 tup_sort(tup_letters(s))
