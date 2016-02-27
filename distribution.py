@@ -46,6 +46,12 @@ def tup_letters(ss):
     tup=list(zip(l,z))
     return(tup)
 def tup_sort(tups):
-    print(len(tups))
+    z=0
+    for x in tups:
+        if x[1]>z:
+            z=x
+        
+    
+    
 print(tup_letters(s))
 tup_sort(tup_letters(s))
