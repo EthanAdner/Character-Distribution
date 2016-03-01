@@ -46,6 +46,8 @@ for x in l:
 tup=list(zip(z,l))
 tups=sorted(tup)
 print(tups)
+tups.reverse()
+print(tups)
 x=0
 z=[]
 
