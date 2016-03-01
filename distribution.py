@@ -43,6 +43,6 @@ l=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","
 s=s.lower()
 for x in l:
     z.append(s.count(x))
-tup=zip(l,z)
+tup=list(zip(l,z))
 print(tup)
 
