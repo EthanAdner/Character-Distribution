@@ -1,7 +1,7 @@
 """
 distribution.py
 Author: <your name here>
-Credit: David Wilson
+Credit: David Wilson, Peyton Streanrs
 
 Assignment:
 
@@ -46,11 +46,7 @@ def tup_letters(ss):
     tup=list(zip(l,z))
     return(tup)
 def tup_sort(tups):
-    z=0
-    tups=list(tups)
-    for x in tups:
-        print(x)
-    tups=tups.sort()
+    tups = sorted(tups, key=lambda z: (-z[0], z[1]))
     print(tups)
     
 print(tup_letters(s))
