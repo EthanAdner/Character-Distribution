@@ -39,10 +39,10 @@ Notice about this example:
 s=str(input("Please enter a string of text (the bigger the better):"))
 z=[]
 l=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
-def tup_letters(ss):
-    ss=ss.lower()
-    for x in l:
-        z.append(ss.count(x))
+
+s=s.lower()
+for x in l:
+    z.append(s.count(x))
 tup=list(zip(l,z))
 print(tup)
 tup = sorted(tup, key=lambda z: (-z[0], z[1]))
@@ -52,4 +52,3 @@ for y in range(0,d):
         a=list([p[1] for p in tup])
         print(a[y])
     
-tup_letters(s)
