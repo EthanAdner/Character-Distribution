@@ -44,7 +44,8 @@ s=s.lower()
 for x in l:
     z.append(s.count(x))
 tup=list(zip(z,l))
-print(tup)
+tups=sorted(tup)
+print(tups)
 x=0
 z=[]
 
