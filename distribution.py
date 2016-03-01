@@ -47,7 +47,8 @@ tup=list(zip(z,l))
 tups=sorted(tup)
 #print(tups)
 tups.reverse()
-print(tups)
+#print(tups)
+tups = sorted(tup, key=lambda tupd: (-tupd[1], tupd[0]))
 x=0
 z=[]
 
