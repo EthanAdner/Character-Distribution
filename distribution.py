@@ -45,7 +45,7 @@ for x in l:
     z.append(s.count(x))
 tup=list(zip(z,l))
 tups=sorted(tup)
-print(tups)
+#print(tups)
 tups.reverse()
 print(tups)
 x=0
