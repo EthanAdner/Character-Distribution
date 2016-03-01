@@ -45,4 +45,8 @@ for x in l:
     z.append(s.count(x))
 tup=list(zip(l,z))
 print(tup)
-
+x=0
+z=[]
+while x<len(tup):
+    z.append(tup[x][0]*tup[x][1])
+print(z)
