@@ -47,6 +47,9 @@ def tup_letters(ss):
     print(tup)
     tup = sorted(tup, key=lambda z: (-z[0], z[1]))
     d=len([x[1] for x in tup])
-    print(d)
+    for y in range(0,d):
+        if not y==y+1:
+            a=list([p[1] for p in tup])
+            print(a[y])
     
 tup_letters(s)
