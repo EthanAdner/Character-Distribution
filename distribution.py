@@ -43,7 +43,7 @@ l=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","
 s=s.lower()
 for x in l:
     z.append(s.count(x))
-tup=list(zip(l,z))
+tup=zip(l,z)
 print(tup)
 tup = sorted(tup, key=lambda z: (-z[0], z[1]))
 d=len([x[1] for x in tup])
