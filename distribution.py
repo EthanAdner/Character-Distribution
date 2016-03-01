@@ -50,5 +50,5 @@ z=[]
 
 while x<len(tup):
     z.append(tup[x][0]*tup[x][1])
-    z=z+1
+    x=x+1
 print(z)
