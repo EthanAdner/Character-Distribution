@@ -43,10 +43,12 @@ l=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","
 s=s.lower()
 for x in l:
     z.append(s.count(x))
-tup=list(zip(l,z))
+tup=list(zip(z,l))
 print(tup)
 x=0
 z=[]
+
 while x<len(tup):
     z.append(tup[x][0]*tup[x][1])
-print(z)
+    print(z)
+    
