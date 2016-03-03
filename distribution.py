@@ -1,7 +1,7 @@
 """
 distribution.py
-Author: <your name here>
-Credit: David Wilson, Peyton Streanrs
+Author: Ethan Adner
+Credit: David Wilson, Peyton Streanrs, Dennison
 
 Assignment:
 
