@@ -37,18 +37,18 @@ Notice about this example:
 * Letters that do not occur in the text are not listed in the output at all.
 """
 s=str(input("Please enter a string of text (the bigger the better):"))
-zed=[]
+z=[]
 l=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
 
 s=s.lower()
 for x in l:
-    zed.append(s.count(x))
-tup=list(zip(zed,l))
+    z.append(s.count(x))
+tup=list(zip(z,l))
 tups=sorted(tup)
 #print(tups)
 tups.reverse()
 #print(tups)
-tups = sorted(tup, key=lambda zed:(-zed[1], zed[0]))
+#tups = sorted(tup, key=lambda z:(-z[1], z[0]))
 print(tups)
 x=0
 z=[]
