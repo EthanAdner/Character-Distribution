@@ -37,6 +37,7 @@ Notice about this example:
 * Letters that do not occur in the text are not listed in the output at all.
 """
 s=str(input("Please enter a string of text (the bigger the better):"))
+ase=s
 z=[]
 l=["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"]
 
@@ -49,11 +50,11 @@ tups=sorted(tup)
 tups.reverse()
 #print(tups)
 tups = sorted(tup, key=lambda zsd:(-zsd[0], zsd[1]))
-print(tups)
+#print(tups)
 x=0
 z=[]
 
-
+print('The distribution of characters in "'+ase+'" is:')
 while x<len(tups):
     print(tups[x][0]*tups[x][1])
     x=x+1
