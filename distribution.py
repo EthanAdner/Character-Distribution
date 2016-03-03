@@ -48,12 +48,11 @@ tups=sorted(tup)
 #print(tups)
 tups.reverse()
 #print(tups)
-tups = sorted(tup, key=lambda z:(-z[0], z[1]))
+tups = sorted(tup, key=lambda zsd:(-zsd[0], zsd[1]))
 print(tups)
 x=0
 z=[]
 
-while x<len(tup):
-    z.append(tups[x][0]*tups[x][1])
-    x=x+1
-print(z)
+
+while x<len(tups):
+    print(tups[x][0]*tups[x][1], "", end="")
