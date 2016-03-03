@@ -56,3 +56,4 @@ z=[]
 
 while x<len(tups):
     print(tups[x][0]*tups[x][1], "", end="")
+    x=x+1
