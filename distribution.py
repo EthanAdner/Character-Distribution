@@ -54,7 +54,7 @@ tups = sorted(tup, key=lambda zsd:(-zsd[0], zsd[1]))
 x=0
 z=[]
 
-print('The distribution of characters in "'+ase+'" is:')
+print(' The distribution of characters in "'+ase+'" is:')
 while x<len(tups):
     print(tups[x][0]*tups[x][1])
     x=x+1
